@@ -1,0 +1,12 @@
+@forward "element-plus/theme-chalk/src/mixins/config.scss" with (
+   $namespace:"ep"
+);
+@forward "element-plus/theme-chalk/src/common/var.scss" with ($colors: (
+        "primary": ("base": #1950c2),
+        "success": ("base": #71d46f),
+        "warning": ("base": #e6a23c),
+        "danger": ("base": #ee5560),
+        "error": ("base": #ea6670),
+        "info": ("base": #E7E7E7),
+    )
+);

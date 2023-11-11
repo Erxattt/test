@@ -1,0 +1,23 @@
+$primary : var(--ep-color-primary);
+$primary_dark : #304156;
+$primary_lighter : #177fea;
+$danger  : var(--ep-color-danger);
+$login_box_width : 370px;
+
+
+$menuText: #ffffff;
+$menuActiveText:#409EFF;
+$subMenuActiveText:#f4f4f5;
+$menuBg:#304156;
+$menuHover:#263445;
+$subMenuBg:#1f2d3d;
+$subMenuHover:#001528;
+$backWhite:#ffffff;
+$sideBarWidth: 210px;
+$headerBg :#ffffff;
+$headerHeight : 60px;
+:export {
+  menuBg: $menuBg;
+  menuActiveText :$menuActiveText;
+  menuText:$menuText;
+}

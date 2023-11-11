@@ -1,0 +1,16 @@
+// 管理scss文件
+@import 'variables.module';
+@import './reset.scss';
+@import "./element-variables.scss";
+
+
+#app{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+:root{
+  font-family:  STSong, 华文宋体, "HanaMinA", serif;
+}
+
